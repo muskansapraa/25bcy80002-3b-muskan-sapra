@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Smooth dark theme */
+body {
+  background: linear-gradient(180deg,#0f172a,#020617);
+  color: white;
+  min-height: 100vh;
+}
+
+/* nicer inputs */
+input {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  color: white;
+}
+
+input::placeholder {
+  color: #94a3b8;
+}
